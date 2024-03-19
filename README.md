@@ -4,8 +4,8 @@
 
 ### Home Page:
 
-![Todo List](image\todoHomee.png)
+![Todo List](image/todoHomee.png)
 
 ### About Page:
 
-![Todo List](image\todoabout.png)
+![Todo List](image/todoabout.png)
