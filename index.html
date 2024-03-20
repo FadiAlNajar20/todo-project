@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>ToDo List</title>
 </head>
+
 <body>
+    <script src="app.js"></script>
     <header>
-        <nav>
-            <img src="image/logo.png" alt="logo">
-            <a href="#">ToDo</a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="about.html">About us</a></li>
-            </ul>
+        <section class="logo">
+            <img src="image/to-do-list.png" alt="logo for todo list">
+            <a href="#" style="font-size: 1.8em;">ToDo</a>
+        </section>
+
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="about.html">About us</a>
         </nav>
     </header>
     <main>
@@ -42,22 +48,22 @@
     <footer>
         <section>
             <p>Location</p>
-            <p>Jordan, Amman</p>
+            <span>Jordan, Amman</span>
         </section>
-        <section>
+        <section class="connect">
             <p>Connect Us</p>
             <a href="#">Call: +96278539417</a>
             <a href="#">Emai: todo@gmail.com</a>
         </section>
-        <section>
+        <section class="social">
             <p>Social Media</p>
-            <ul>
-                <li>Facebook</li>
-                <li>GitHub</li>
-                <li>Linkenin</li>
-            </ul> 
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
         </section>
-        <p class="pargraph" style="text-align: center;">&copy; 2024 All Rights Reserved</p>
+        
     </footer>
+    <p class="pargraph" style="text-align: center;">&copy; 2024 All Rights Reserved</p>
 </body>
+
 </html>
